@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script
+      src="https://kit.fontawesome.com/6f378dc0ed.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,19 +15,45 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+
     <title>Collage Calling Website</title>
   </head>
   <body>
+    <ul class="secondary-nav">
+      <li><a class="link-secondary-nav" href="./index.html">home</a></li>
+      <li><a class="link-secondary-nav" href="./about.html">about</a></li>
+      <li><a class="link-secondary-nav" href="./art.html">art</a></li>
+      <li>
+        <a class="link-secondary-nav" href="./workshops.html">workshops</a>
+      </li>
+      <li>
+        <a class="link-secondary-nav" href="./contact.html">contact</a>
+      </li>
+    </ul>
     <div class="welcome-area">
-      <div class="cc-logo">
-        <img src="./img/collage_calling_font_4.png" alt="Collage Calling Logo" />
-      </div>
-      <div class="welcome-text">
-        <h1>
-          I am a collage artist and an art teacher.
-          <br />
-          Feel free to explore what I do.
-        </h1>
+      <div class="overlay">
+        <div class="cc-logo">
+          <a href="./index.html"
+            ><img
+              src="./img/collage_calling_font_4.png"
+              alt="Collage Calling Logo"
+            />
+          </a>
+        </div>
+        <i class="fa-solid fa-scissors"></i>
+        <div class="welcome-text">
+          <h1>
+            Hi, I'm Roxana.
+            <br />
+            I give new life to old magazines and help people connect
+            with the artist inside. <br />
+            Feel free to explore what I do.
+          </h1>
+        </div>
       </div>
     </div>
 
@@ -39,16 +68,19 @@
           <h2>art</h2>
         </div>
       </a>
-      <a href="./art.html"  class="main-nav-links">
+      <a href="./workshops.html" class="main-nav-links">
         <div class="card-wrapper" id="card-wrapper-3">
           <h2>workshops</h2>
         </div>
       </a>
-      <a href="./art.html" class="main-nav-links">
+      <a href="./contact.html" class="main-nav-links">
         <div class="card-wrapper" id="card-wrapper-4">
           <h2>contact</h2>
         </div>
       </a>
     </section>
+    <div class="footer">
+      <p>&copy; Collage Calling 2022</p>
+    </div>
   </body>
 </html>
